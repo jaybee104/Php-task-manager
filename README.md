@@ -22,7 +22,7 @@ git clone https://github.com/your-username/task-manager.git
 cd task-manager
 
 2. Configure Database
-Create a new MySQL database, and then import the database schema.
+Create a new MySQL database, and then import the database.sql file.
 
 
 CREATE DATABASE task_manager;
@@ -112,10 +112,3 @@ assets/: Stores static files like CSS and JS.
 templates/: Includes reusable templates (header, footer) for consistent page layout.
 Contributing
 Contributions are welcome! Feel free to fork this repository, make improvements, and submit pull requests.
-
-Steps to Contribute:
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit (git commit -m "Add feature").
-Push to your branch (git push origin feature/your-feature).
-Open a pull request on GitHub.
